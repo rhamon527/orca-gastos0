@@ -301,7 +301,7 @@ def export_excel(obra_id):
 
 @app.route('/export/pdf/<int:obra_id>')
 @login_required
-def export_pdf(obra_id):
+def export_pdf(obra_id):#
     from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
     from reportlab.lib import colors
     obra = Obra.query.get_or_404(obra_id)
