@@ -1,0 +1,9 @@
+flask
+flask-login
+flask-sqlalchemy
+flask-socketio
+eventlet
+python-dotenv
+pandas
+xlsxwriter
+reportlab
